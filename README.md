@@ -1,13 +1,6 @@
 # Firebase-Pagination-Example
 My implementation of pagination in Firebase <br>
 ### Original Article [Link](https://mostly-dumb.github.io/firebase-pagination/)
----
-project: true
-layout: post
-title: "Firebase Database Pagination"
-date: 2019-02-18
-excerpt: "Tutorial for implementing pagination in Firebase."
----
 
 ## What is Pagination?
 While loading data from an API on internet connection, it is important to load it in batches as and when required. If Facebook/Instagram were to load all the data altogether, the apps would never start. Hence more data should be loaded only when more data is requested i.e. when the screen is scrolled further. This is the efficient practice in any API loading scenario. This also uses internet and cache memory efficiently.
